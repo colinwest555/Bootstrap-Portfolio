@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/25/21/08/american-flag-2260839_960_720.jpg") 
+    
+}
+
+.axe{
+    background-color: aliceblue;
+    max-width: 960px;
+    width:100pc;
+    margin:0 auto;
+    margin-top: 80px;
+    clear: both;
+}
+h1{
+    color:#4aaaa5
+}
+.fixed-top{ position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  
+   
+}
+
+
+
+.container{
+    margin-top:160px;
+    background-color: aliceblue;
+
+}
+
+.img1{ float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.img2{ float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.img3{float: left; 
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+
+}
+.img4{ margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+
+}
+.img5{ margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+   
+}
+.index-page{ max-width:960px ;
+margin:0 auto}
+
+.form-group{
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;
+    margin-bottom:20px;
+
+}
+
+.foot{
+    position: relative;
+    bottom: 0;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+
+}
