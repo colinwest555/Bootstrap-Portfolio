@@ -36,39 +36,41 @@ h1{
 
 .img1{ float: left;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
-.img2{ float: left;
-    margin-left: 20px;
+.img2{ 
+    margin-left: 40px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 36px;
     margin-bottom: 20px;
 
 
 }
 
-.img3{float: left; 
+.img3{ clear: both;
     margin-left: 20px;
     margin-right: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    float: left;
     
 
 
 }
-.img4{ margin-left: 40px;
+.img4{ margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom: 20px;
     
 
 }
-.img5{ margin-left: 20px;
+.img5{ clear: both;
+    margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 footer {
