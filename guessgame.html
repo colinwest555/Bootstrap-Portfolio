@@ -39,6 +39,12 @@
 
         document.onkeyup = function (event) {
  var userGuess = event.key;
+ 
+  var regex=/[a-zA-Z]/;
+  // check if user key is a letter
+  if (userGuess.match(regex))
+  {
+//do game logic
 
  var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
@@ -70,7 +76,7 @@
             lossesText.textContent = "losses: " + losses;
             guessesLeftText.textContent = "guesses left: "+ gussesLeft;
             guessText.textContent = "guesses: " + guesses;
-           
+  }           
         };
 
     </script>
