@@ -19,7 +19,7 @@
 
 <body>
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <a class="navbar-brand" href="index.html">
                 <div class="p-3 mb-2 bg-info text-white">Colin Westmoreland</div>
             </a>
@@ -32,12 +32,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">about me <span class="sr-only">(current)</span></a>
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="https://shawnholcomb.github.io/Drinkr/">drinkr</a>
+                          <a class="dropdown-item" href="guessgame.html">guessing game</a>
+                          <a class="dropdown-item" href="java2.html">money collector</a>
+                          
+                        </div>
+                      </li>
+
+
                     <li class="nav-item">
                         <a class="nav-link" href="contacts.html">contacts</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">portfolio</a>
-                    </li>
+                    
                 </ul>
             </div>
         </nav>
@@ -45,13 +55,13 @@
 
 
 
-
+        <div class=contacts>
     <form class="container">
         <h1>Contacts</h1>
         <hr>
         <div class="form-group">
             <label for="exampleInputPassword1">name</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Enter name">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder=" Enter name">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -64,10 +74,9 @@
             <button type="submit" class="btn btn-primary">Submit</button>
 
     </form>
-
-
+        </div>
+    </div>
 </body>
 
-<footer class="foot">@copyright</footer>
 
 </html>

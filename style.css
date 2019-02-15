@@ -1,10 +1,10 @@
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2017/04/25/21/08/american-flag-2260839_960_720.jpg") 
-    
+    background: url('https://www.crystalhearinguk.co.uk/staging/wp-content/uploads/2016/09/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg');
+     
 }
 
 .axe{
-    background-color: aliceblue;
+    background-color: #666666;
     max-width: 960px;
     width:100pc;
     margin:0 auto;
@@ -12,10 +12,10 @@ body {
     clear: both;
 }
 h1{
-    color:#4aaaa5
+    color:#4aaaa5;
 }
 .fixed-top{ position: fixed;
-    z-index: 99;
+   
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
@@ -31,48 +31,10 @@ h1{
 .container{
     margin-top:160px;
     background-color: aliceblue;
-
+ border: 3px #4aaaa5;
+ height: 500px;
 }
 
-.img1{ float: left;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-.img2{ 
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 36px;
-    margin-bottom: 20px;
-
-
-}
-
-.img3{ clear: both;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: left;
-    
-
-
-}
-.img4{ margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    
-
-}
-.img5{ clear: both;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
 footer {
     position: relative;
     bottom: 0;
@@ -82,13 +44,13 @@ footer {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #666666;
+    background: aliceblue;
     border-top: 8px solid #4aaaa5;
     height: 50px;
    
 }
 .index-page{ max-width:960px ;
-margin:0 auto}
+margin:0 auto;}
 
 .form-group{
     margin-left: 20px;
@@ -111,4 +73,8 @@ margin:0 auto}
     border-top: 8px solid #4aaaa5;
     height: 50px;
 
+}
+.Nav{
+    z-index: 1;
+    background-color:#666666 
 }
